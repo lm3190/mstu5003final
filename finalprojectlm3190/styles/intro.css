@@ -42,6 +42,11 @@ body {
   border: 0.2px solid #010101;
 }*/
 
+input[type=range] {
+	-webkit-appearance: slider-vertical;
+	height: 600px;
+}
+
 
 /*#slider input button [type=range]::-webkit-slider-thumb {
   background-image: url(glyphicon glyphicon-triangle-right);
@@ -73,4 +78,8 @@ body {
 
 .pagination .pagination-lg {
     text-align: center;
+}
+
+input[type=range] {
+	color: blue;
 }
