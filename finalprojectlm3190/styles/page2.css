@@ -1,0 +1,129 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, {
+  font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+}
+
+h1 {
+  color: #FC4A1A;
+}
+
+h2{
+  color: #4ABDAC;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  margin-top: 30px;
+}
+ img {
+   max-width: 100%;
+ }
+
+
+div {
+  display: block;
+}
+.pagination .pagination-lg{
+  text-align: center;
+}/*page pagination centers on page*/
+
+#introbody {
+  background-color: #DFDCE3;
+}
+
+#title {
+position: relative;
+  background-color: #4ABDAC;
+  color: white;
+   padding-top: 300px;
+padding-bottom: 300px;
+border-radius: 20px;
+z-index: 2;
+} /*style for course title home page*/
+
+.btn {
+background-color: #DC7633;
+border-color: #b3c2bf;
+margin: 20px;
+z-index: 1;
+}
+/*style for all buttons yellow*/
+
+
+
+
+/**  Picture quote page 2 **/
+
+#story {
+  padding: 0;
+
+}
+
+
+#story blockquote {
+  margin: 0;
+  padding: 0;
+  border-left: none;
+  min-height: 500px;
+  position: relative;
+  top: 50%;
+  left: 20%;
+}
+
+#story blockquote .quote {
+  background-color: rgba(255,255,255,.6);
+  padding: 20px 5%;
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  font-weight: 400;
+  border-radius: 0 50px 0 0;
+}
+
+#story blockquote .quote:hover {
+  background-color: #DFDCE3;
+}
+
+#story #shoes {
+  background: url('../images/shoes.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+
+#story .quote {
+  font-size: 1.2em;
+  line-height: 110%;
+  font-weight: 400;
+}
+
+
+#story .quote .more, #story .customer {
+  opacity: 0;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 10px;
+}
+
+
+#story .quote:hover .more {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  display: block;
+  opacity: 1;
+  font-size: .8em;
+  line-height: 120%;
+}
+
+#story .quote:hover .customer {
+  display: block;
+  font-size: .7em;
+  text-align: right;
+}
+
+#story .quote .intro::after {
+  content: '...';
+}
+
+#story .quote:hover .intro::after {
+  content: '';
+}

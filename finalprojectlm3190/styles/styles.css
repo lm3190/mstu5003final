@@ -1,0 +1,55 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, {
+  font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+}
+
+h1 {
+  color: #D0D3D4  ;
+}
+
+h2{
+  color: #4ABDAC;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  margin-top: 30px;
+}
+ img {
+   max-width: 100%;
+ }
+
+div {
+  display: block;
+}
+.pagination .pagination-lg{
+  text-align: center;
+}/*page pagination centers on page*/
+
+#introbody {
+  background-color: #DFDCE3;
+}
+
+#title {
+position: relative;
+  background-color: #4ABDAC;
+  color: white;
+   padding-top: 300px;
+padding-bottom: 300px;
+border-radius: 20px;
+z-index: 2;
+} /*style for course title home page*/
+
+.btn {
+  color: white;
+background-color: #566573;
+border-color: #D0D3D4;
+margin: 20px;
+z-index: 1;
+}
+/*style for all buttons yellow*/
+
+
+
+
+/

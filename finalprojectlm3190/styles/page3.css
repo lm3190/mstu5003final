@@ -1,0 +1,52 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, {
+    font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+}
+
+h1 {
+    color: #FC4A1A;
+}
+
+h2 {
+    font-size: 18px;
+    color: #4ABDAC;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    margin-top: 30px;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #DC7633;
+    border-color: #b3c2bf;
+    margin: 20px;
+    z-index: 1;
+}
+
+.page_image {
+    background-color: #4ABDAC;
+}
+
+.pagination .pagination-lg {
+    text-align: center;
+}
+
+
+/*page pagination centers on page*/
+
+.questions {
+    border-left: 2px solid #4ABDAC;
+    padding: 20px;
+}
+
+.heading {
+    text-align: right;
+}
