@@ -1,11 +1,11 @@
-$scope.verticalSlider1 = {
-    value: 0,
-    options: {
-        floor: 0,
-        ceil: 10,
-        vertical: true
-    }
-};
+// $scope.verticalSlider1 = {
+//     value: 0,
+//     options: {
+//         floor: 0,
+//         ceil: 10,
+//         vertical: true
+//     }
+// };
 
 
 
@@ -15,8 +15,8 @@ $(document).ready(function() {
 
 
 
-range = new JSlider();
-slider.putClientProperty("Slider.paintThumbArrowShape", Boolean.TRUE);
+// range = new JSlider();
+// slider.putClientProperty("Slider.paintThumbArrowShape", Boolean.TRUE);
 
 
 function playSound() {
