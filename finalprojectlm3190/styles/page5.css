@@ -26,33 +26,15 @@ body {
 }
 
 .btn {
-    background-color: #DC7633;
-    border-color: #b3c2bf;
+    color: white;
+    background-color: #E67E22;
+    border-color: #D0D3D4;
     margin: 20px;
-    z-index: 1;
 }
-
-.pagination .pagination-lg {
-    text-align: center;
-}
-
-
-/*page pagination centers on page*/
 
 
 /*page specific*/
 
 img {
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 15px;
-    text-align: center;
-}
-
-.page_image {
-    background-color: #4ABDAC;
-}
-
-.heading {
-    text-align: right;
+    max-width: 300px;
 }

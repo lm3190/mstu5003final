@@ -1,28 +1,19 @@
+/* Global */
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, {
     font-family: "Montserrat", "Helvetica", Arial, sans-serif;
 }
 
-#slider .button {
-    -webkit-appearance: slider-vertical;
-    width: 40px;
-    height: 600px;
-    background: #DC7633;
+h1 {
+    color: #5D6D7E;
+}
+
+h2 {
     color: #4ABDAC;
 }
 
-#intro {
-    color: #4ABDAC;
-    border-bottom: dashed;
-}
-
-
-/*header title*/
-
-.btn {
-    color: white;
-    background-color: #E67E22;
-    border-color: #D0D3D4;
-    margin: 20px;
+blockquote {
+    color: #5D6D7E;
 }
 
 body {
@@ -31,55 +22,36 @@ body {
     margin-top: 30px;
 }
 
-
-/*input[type=range]::-webkit-slider-runnable-track {
-  width: 10px;
-  height: 600px;
-  cursor: pointer;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #3071a9;
-  border-radius: 1.3px;
-  border: 0.2px solid #010101;
-}*/
-
-input[type=range] {
-	-webkit-appearance: slider-vertical;
-	height: 600px;
-}
-
-
-/*#slider input button [type=range]::-webkit-slider-thumb {
-  background-image: url(glyphicon glyphicon-triangle-right);
-  -webkit-appearance: button;
-  border: 10px solid #F7B733;
-  height: 36px;
-  width: 16px;
-  border-radius: 3px;
-  background: #F7B733;
-  cursor: pointer;
-  margin-top: -14px;
-  box-shadow: 1px 1px 1px #F7B733, 0px 0px 1px #F7B733; /* Add cool effects to your sliders! */
-
-
-/* Tooltip */
-
-.tipexample+.tooltip>.tooltip-inner {
-    background-color: #F7B733;
-    color: #FFFFFF;
-    border: 1px solid green;
-    padding: 15px;
-    font-size: 20px;
-    /* Tooltip on bottom */
-}
-
-.tipexample+.tooltip.right>.tooltip-arrow {
-    border-bottom: 5px solid blue;
+.btn {
+    color: white;
+    background-color: #E67E22;
+    border-color: #D0D3D4;
+    margin: 20px;
 }
 
 .pagination .pagination-lg {
     text-align: center;
 }
 
+
+/*header title*/
+
+
+/* slider */
+
 input[type=range] {
-	color: blue;
+    -webkit-appearance: slider-vertical;
+    -webkit-tap-highlight-color: red;
+    height: 600px;
+    color: red;
+    background-color: red;
+    -webkit-slider-thumb: red;
+}
+
+
+/* Page 6 Ladder image */
+
+#ladder {
+    background-color: #5D6D7E;
+    padding: 15px;
 }
